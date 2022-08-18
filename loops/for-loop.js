@@ -24,6 +24,10 @@ listaMascotas.forEach(item => {
     console.log(item)
 })
 
+listaMascotas.forEach(function(item) {
+    console.log(item)
+})
+
 // For in structure -> Iterate over the elements inside an object
 for (let item in mascota1) {
     console.log(`${item}: ${mascota1[item]}`);

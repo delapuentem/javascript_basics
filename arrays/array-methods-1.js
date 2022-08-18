@@ -1,3 +1,4 @@
+//.push() .pop() .shift() .unshift() .concat()
 const list = ['Car', 'Train', 'Plane']
 
 // Add items at start of array
@@ -14,9 +15,9 @@ console.log(list)
 list.pop()
 console.log(list)
 
-// Merge two lists
+// MERGE TWO LISTS
 
-// With concatenated method
+// Concat -> With concatenated method
 const list2 = ['Twitter', 'Facebook']
 const mergedLists = list.concat(list2)
 
