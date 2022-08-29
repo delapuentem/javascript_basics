@@ -11,16 +11,26 @@ listaPaises = [state1, state2, state3, state4]
 
 // Map -> Callback function. Generate new list from another.
 
+//with anonymous function
+
 listaPaises2 = listaPaises.map((value, index) => {
     return `${value.capital} city`
 })
 
 console.log(listaPaises2)
 
+// with arrow function
+
+const addCityWord = item => item.name + ' City'
+
+listaPaises3 = listaPaises.map(addCityWord)
+
+console.log(listaPaises3)
+
 // Filter -> Filter items from array generating a new array from another and drop not filtered values
 
-listaPaises3 = listaPaises.filter(item => {
+listaPaises4 = listaPaises.filter(item => {
     return item.states > 5
 })
 
-console.log(listaPaises3)
+console.log(listaPaises4)
