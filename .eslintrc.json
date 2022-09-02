@@ -13,11 +13,7 @@
     "rules": {
         "indent": [
             "error",
-            "tab"
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
+            4
         ],
         "quotes": [
             "error",
